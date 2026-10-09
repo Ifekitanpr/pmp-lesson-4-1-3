@@ -60,8 +60,8 @@ const quizOne = {
   image: riskCheckModal,
   imageAlt: "A project manager and sponsor review a predefined risk impact boundary",
   question: "Scenario: A project has a rule that any risk with a potential cost impact above a defined dollar amount must be escalated to the sponsor immediately. What is this an example of?",
-  answers: ["A KPI", "A risk threshold", "A budget constraint", "A progress report"],
-  correct: 1,
+  answers: ["A KPI", "A budget constraint", "A progress report", "A risk threshold"],
+  correct: 3,
   correctFeedback: "Right — a predefined trigger point for action based on impact or probability is exactly what a risk threshold is. Without it, the same risk data would arrive with no agreed response attached.",
   incorrectFeedback: "Reconsider — this is specifically about a predefined trigger point for risk action, not a performance measure or a spending limit."
 };
@@ -71,12 +71,12 @@ const quizTwo = {
   imageAlt: "A Scrum team reviews current work and a burndown trend during a daily stand-up",
   question: "Scenario: A Scrum team relies on burndown charts and daily stand-ups rather than a monthly formal status report to track progress. What does this reflect?",
   answers: [
+    "An adaptive approach using real-time information",
     "The team is skipping proper information governance",
-    "An adaptive environment's approach to information requirements — real-time data over periodic reporting",
     "A predictive environment's approach to information requirements",
     "The team has no critical information requirements defined"
   ],
-  correct: 1,
+  correct: 0,
   correctFeedback: "Exactly — real-time, continuously reassessed data replacing formal periodic reporting is the adaptive pattern, not a governance gap.",
   incorrectFeedback: "Look again at the cadence described — continuous, real-time tracking points to one specific development approach."
 };
